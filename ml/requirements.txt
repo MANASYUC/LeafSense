@@ -1,0 +1,9 @@
+torch>=2.2.0
+torchvision>=0.17.0
+torchmetrics>=1.4.0
+numpy
+Pillow
+tqdm
+matplotlib
+seaborn
+scikit-learn

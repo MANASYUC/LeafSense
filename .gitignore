@@ -1,0 +1,76 @@
+# ===========================================
+# PYTHON CACHE FILES
+# ===========================================
+__pycache__/
+*.pyc
+*.pyo
+
+
+# ===========================================
+# NODE.JS DEPENDENCIES
+# ===========================================
+node_modules/
+package-lock.json
+
+
+# ===========================================
+# README FILES
+# ===========================================
+README.md
+frontend/README.md
+frontend/src/README.md
+*.md
+
+
+# ===========================================
+# FRONTEND DEVELOPMENT FILES
+# ===========================================
+frontend/eslint.config.js
+frontend/tsconfig.app.json
+frontend/tsconfig.node.json
+frontend/tsconfig.json
+frontend/vite.config.ts
+frontend/public/vite.svg
+frontend/src/assets/react.svg
+
+
+# ===========================================
+# LARGE DATASET FILES
+# ===========================================
+data/
+
+
+# ===========================================
+# MACHINE LEARNING FILES
+# ===========================================
+ml/configs/
+ml/models/efficientnet_b0_confusion_matrix.png
+ml/models/efficientnet_b0_classes.json
+ml/scripts/enhanced_train.py
+ml/scripts/fast_train.py
+ml/scripts/test.py
+
+
+# ===========================================
+# STARTUP SCRIPTS
+# ===========================================
+start_backend.bat
+start_backend.sh
+start_frontend.sh
+start_frontend.bat
+
+
+# ===========================================
+# BACKEND UTILITY FILES
+# ===========================================
+backend/download_dataset.py
+backend/api/download_dataset.py
+
+
+# ===========================================
+# ROOT LEVEL FILES
+# ===========================================
+model_load.py
+
+ml/models/
+
