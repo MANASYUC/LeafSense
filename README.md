@@ -21,27 +21,38 @@ A React frontend with FastAPI backend for detecting plant diseases from images u
 ### Backend Setup
 
 1. Navigate to the backend directory:
+
    ```bash
    cd backend
    ```
 
-2. Create and activate a virtual environment (recommended):
+2. Initialize Git LFS (run once per system):
+
+   ```bash
+   git lfs install
+
+   ```
+
+3. Create and activate a virtual environment (recommended):
+
    ```bash
    # Windows
    python -m venv venv
    venv\Scripts\activate
-   
+
    # Linux/Mac
    python3 -m venv venv
    source venv/bin/activate
    ```
 
-3. Install Python dependencies:
+4. Install Python dependencies:
+
    ```bash
    pip install -r requirements.txt
    ```
 
-4. Run the FastAPI server:
+5. Run the FastAPI server:
+
    ```bash
    uvicorn api.main:app --host 127.0.0.1 --port 8000 --reload
    ```
@@ -51,16 +62,19 @@ A React frontend with FastAPI backend for detecting plant diseases from images u
 ### Frontend Setup
 
 1. Navigate to the frontend directory:
+
    ```bash
    cd frontend
    ```
 
 2. Install Node.js dependencies:
+
    ```bash
    npm install
    ```
 
 3. Run the React development server:
+
    ```bash
    npm run dev
    ```
@@ -72,10 +86,12 @@ A React frontend with FastAPI backend for detecting plant diseases from images u
 For convenience, you can use the provided startup scripts:
 
 ### Windows
+
 - **Backend**: Double-click `start_backend.bat` or run it from command prompt
 - **Frontend**: Double-click `start_frontend.bat` or run it from command prompt
 
 ### Linux/Mac
+
 - **Backend**: `./start_backend.sh`
 - **Frontend**: `./start_frontend.sh`
 
@@ -121,11 +137,13 @@ plant_detect_react/
 ## Development
 
 ### Backend Development
+
 - The FastAPI server runs with auto-reload enabled
 - API documentation is available at http://127.0.0.1:8000/docs
 - CORS is configured to allow requests from the frontend
 
 ### Frontend Development
+
 - Built with React + TypeScript + Vite
 - Hot module replacement enabled
 - ESLint configured for code quality
@@ -135,6 +153,7 @@ plant_detect_react/
 ### Common Issues
 
 1. **Port already in use**: Change the port in the startup command
+
    - Backend: `uvicorn api.main:app --host 127.0.0.1 --port 8001 --reload`
    - Frontend: Update `vite.config.ts` or use `npm run dev -- --port 3001`
 
