@@ -19,7 +19,7 @@ package-lock.json
 README.md
 frontend/README.md
 frontend/src/README.md
-*.md
+PLANT_DISEASE_CLASSES.md
 
 
 # ===========================================
@@ -46,10 +46,7 @@ data/
 ml/configs/
 ml/models/efficientnet_b0_confusion_matrix.png
 ml/models/efficientnet_b0_classes.json
-ml/scripts/enhanced_train.py
-ml/scripts/fast_train.py
-ml/scripts/test.py
-
+ml/scripts/
 
 # ===========================================
 # STARTUP SCRIPTS
